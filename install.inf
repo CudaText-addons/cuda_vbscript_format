@@ -1,0 +1,22 @@
+[info]
+title=VBScript Format
+desc=Formats VBScript code
+type=cudatext-plugin
+subdir=cuda_vbscript_format
+homepage=https://github.com/CudaText-addons/cuda_vbscript_format
+
+[item1]
+section=commands
+caption=VBScript Format\Format
+method=run
+lexers=VBScript
+
+[item11]
+section=commands
+caption=VBScript Format\Configure
+method=config_global
+
+[item12]
+section=commands
+caption=VBScript Format\Configure (local)
+method=config_local
